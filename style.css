@@ -1,0 +1,143 @@
+
+.container{
+    display: flex;
+    width: 1024px;
+    position: absolute;
+   } 
+
+body{
+    padding-top: 25px;
+        margin: 0;
+    justify-content: center;
+    display: flex;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/12/14/50/wallpaper-3219829_960_720.jpg);
+    background-color: aqua;
+    
+}
+
+.leftside 
+{width: 35%;
+background-color: #253857;
+padding: 25px;
+color: #ffffff;
+font-family: 'Anton', sans-serif;
+}
+.photo{
+display: flex;
+justify-content: center;
+}
+
+.photo_img{
+width: 300px;
+border-radius: 50%;
+border: #ffffff 2px solid;
+}
+.contacts{
+    padding: 50px;
+    padding-bottom: 0;
+}
+.contacts_title{
+    align-items: center;
+}
+.contacts_divider{
+    width: 103px;
+}
+.geo{
+ display: flex;
+ align-items: center;
+ margin-bottom: 25px;
+
+}
+.geo_img{
+margin-right: 20px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.phone_img{
+    margin-right: 20px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.email_img{
+    margin-right: 20px;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.instagram_img{
+    margin-right: 20px;
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.linkedin_img{
+    margin-right: 20px;
+}
+.education{
+padding-left: 30px;
+padding-top: 5px;
+}
+
+
+.education_title{
+align-items: center;
+padding-left: 20px;
+}
+.education_divider{
+width: 113px;
+padding-left: 20px;
+}
+
+
+
+.rightside 
+{width: 60%;
+padding: 25px;
+color: black;
+background-color:rgb(204 221 228);
+font-family: 'Abril Fatface', cursive;
+}
+.name{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+}
+.name_divider{
+width: 190px;
+}
+.aboutmyself{
+padding-top: 109px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.aboutmyself_divider{
+width: 129px;
+}
+.expirience_title{
+    padding-left: 20px;
+}
+.expirience_divider{
+    padding-left: 20px;
+    width: 96px;
+}
+.skills_title{
+    padding-left: 20px;
+}
+.skills_divider{
+    padding-left: 20px;
+    width: 50px;
+}
